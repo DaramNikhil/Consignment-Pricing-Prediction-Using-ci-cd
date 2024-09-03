@@ -1,37 +1,43 @@
-===============================================
-Consignment-Pricing-Prediction-Using-Mlops-CICD
-===============================================
+# Consignment Pricing Prediction
 
+## Overview
+This project predicts consignment pricing using machine learning techniques. It processes historical data to train a model that can predict future consignment prices. The entire workflow, from data processing to prediction, is handled within a single Python script, with automated testing and deployment set up using CI/CD practices.
 
-.. image:: https://img.shields.io/pypi/v/consignment_pricing_prediction_using_mlops_cicd.svg
-        :target: https://pypi.python.org/pypi/consignment_pricing_prediction_using_mlops_cicd
+## Features
+- Predict consignment pricing based on historical data.
+- Integrated CI/CD pipeline for automated testing and deployment.
+- Comprehensive data processing and model training.
 
-.. image:: https://img.shields.io/travis/DaramNikhil/consignment_pricing_prediction_using_mlops_cicd.svg
-        :target: https://travis-ci.com/DaramNikhil/consignment_pricing_prediction_using_mlops_cicd
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/DaramNikhil/Consignment-Pricing-Prediction.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Consignment-Pricing-Prediction
+    ```
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-.. image:: https://readthedocs.org/projects/consignment-pricing-prediction-using-mlops-cicd/badge/?version=latest
-        :target: https://consignment-pricing-prediction-using-mlops-cicd.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
+## Usage
+1. Run the Python script to train the model and make predictions:
+    ```bash
+    python data_process.py
+    ```
 
+2. Run tests to ensure everything is functioning correctly:
+    ```bash
+    pytest data_process.py
+    ```
 
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes. If you have any questions, feel free to open an issue.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-consignment_pricing_prediction_using_mlops_cicd
-
-
-* Free software: MIT license
-* Documentation: https://consignment-pricing-prediction-using-mlops-cicd.readthedocs.io.
-
-
-Features
---------
-
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+## Contact
+Created by nikhildaram51@gmail.com - feel free to reach out for any questions!
